@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #dddddd;
+  color: #222831;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #30475e;
+  font-size: 64px;
+  font-weight: bolder;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 54;
+  text-align: center;
+  margin-block: 16px;
+}
+
+h2 {
+  color: #f05454;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #f05454;
+  font-size: 30;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250;
+  align-content: center;
+  margin-block: 16px;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #f05454;
+  font-size: 24;
+  border-radius: 32px;
+  padding: 8px 16px;
+  text-align: center;
+  margin: 32px;
+  width: 400px;
+}
+
+.btn:hover {
+  background-color: #dddddd;
+  color: #f05454;
+  border: 0.5px solid #f05454;
+}
+
+.card {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 64px 32px;
+  margin: 20 auto;
+  box-shadow: 2px 2px 2px #727b88;
+}
+
+.inline-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  font-size: 48px;
+  text-align: center;
+}
+.inline-list > li > a {
+  color:#30475e;
+  font-size: 32;
+}
+
+.inline-list > li > a:hover {
+  color: #f05454;
+  font-size: 32;
+}
+.italicenter {
+  text-align: center;
+}
